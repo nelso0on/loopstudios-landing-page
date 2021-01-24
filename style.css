@@ -41,3 +41,8 @@ header {
   margin: 40% auto;
   padding: 25px 40px 25px 25px;
 }
+
+.header-title {
+  font-size: clamp(34px, calc(2.125rem + ((1vw - 3.2px) * 8.75)), 48px);
+  min-height: 0vw;
+}
