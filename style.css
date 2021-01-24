@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-image: url(images/mobile/hero.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+}
+
+.logo {
+  font-family: "Alata";
+  color: white;
+  text-decoration: none;
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.menu-open {
+  background-color: transparent;
+  border: none;
+}
+
+.header-title {
+  width: 83.3333%;
+  height: auto;
+  border: 2px solid white;
+  font-size: 48px;
+  color: white;
+  font-family: "Josefin Sans";
+  font-weight: 200;
+  margin: 40% auto;
+  padding: 25px 40px 25px 25px;
+}
