@@ -46,3 +46,30 @@ header {
   font-size: clamp(34px, calc(2.125rem + ((1vw - 3.2px) * 8.75)), 48px);
   min-height: 0vw;
 }
+
+.description-section {
+  margin-top: 95px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description-image {
+  width: 83%;
+  height: auto;
+}
+
+.description-title {
+  font-family: "Josefin Sans";
+  font-weight: 200;
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+.description {
+  font-family: "Alata";
+  color: #00000088;
+  text-align: center;
+  padding: 0 5px;
+}
