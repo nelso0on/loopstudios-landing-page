@@ -164,9 +164,60 @@ header {
   background-color: white;
   letter-spacing: 3px;
   transition: 0.3s ease-in;
+  cursor: pointer;
 }
 
 .see-all-btn:hover {
   color: white;
   background-color: black;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.footer-logo {
+  font-family: "Alata";
+  color: white;
+  text-decoration: none;
+  font-size: 2.25rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.footer-menu {
+  list-style: none;
+}
+
+.footer-menu-item {
+  padding: 12.5px 0;
+
+  text-align: center;
+}
+
+.footer-menu-item a {
+  text-decoration: none;
+  color: white;
+  font-family: "Alata";
+  font-size: 1.25rem;
+}
+
+.socials {
+  margin: 20px 0;
+}
+
+.social-link {
+  padding: 0 12.5px;
+}
+
+.copyrights {
+  font-size: 16px;
+  font-family: "Alata";
+  color: white;
+  margin-bottom: 18px;
 }
