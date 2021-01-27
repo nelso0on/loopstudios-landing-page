@@ -123,7 +123,7 @@ header {
 }
 
 .header-title {
-  font-size: clamp(34px, calc(2.125rem + ((1vw - 3.2px) * 8.75)), 48px);
+  font-size: clamp(28px, calc(1.75rem + ((1vw - 2.8px) * 10)), 48px);
   min-height: 0vw;
 }
 
