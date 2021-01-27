@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="icon"
       type="image/png"
@@ -24,7 +25,7 @@
     <title>Frontend Mentor | Loopstudios landing page</title>
   </head>
   <body>
-    <header>
+    <header data-aos="fade-up" data-aos-duration="800">
       <div class="top">
         <a href="#" class="logo">loopstudios</a>
         <button class="menu-open">
@@ -51,12 +52,15 @@
     <main>
       <section class="description-section">
         <img
+          data-aos="fade-up"
           class="description-image"
           src="images/desktop/image-interactive.jpg"
           alt=""
         />
-        <h2 class="description-title">the leader in<br />interactive vr</h2>
-        <p class="description">
+        <h2 data-aos="fade-up" class="description-title">
+          the leader in<br />interactive vr
+        </h2>
+        <p data-aos="fade-up" class="description">
           Founded In 2011, Loopstudios has been producing world-class virtual
           reality projects for some of the best companies around the globe. Our
           award-winning creations have transformed businesses through digital
@@ -64,42 +68,42 @@
         </p>
       </section>
       <section class="creations-section">
-        <h2 class="creations-title">our creations</h2>
-        <div class="creation-box box1">
+        <h2 data-aos="fade-up" class="creations-title">our creations</h2>
+        <div data-aos="fade-up-right" class="creation-box box1">
           <div class="backdrop"></div>
           <h3 class="creation-box-title">deep<br />earth</h3>
         </div>
-        <div class="creation-box box2">
+        <div data-aos="fade-up-left" class="creation-box box2">
           <div class="backdrop"></div>
           <h3 class="creation-box-title">night<br />arcade</h3>
         </div>
-        <div class="creation-box box3">
+        <div data-aos="fade-up-right" class="creation-box box3">
           <div class="backdrop"></div>
           <h3 class="creation-box-title">soccer<br />team vr</h3>
         </div>
-        <div class="creation-box box4">
+        <div data-aos="fade-up-left" class="creation-box box4">
           <div class="backdrop"></div>
           <h3 class="creation-box-title">the<br />grid</h3>
         </div>
-        <div class="creation-box box5">
+        <div data-aos="fade-up-right" class="creation-box box5">
           <div class="backdrop"></div>
           <h3 class="creation-box-title">from up<br />above vr</h3>
         </div>
-        <div class="creation-box box6">
+        <div data-aos="fade-up-left" class="creation-box box6">
           <div class="backdrop"></div>
           <h3 class="creation-box-title">pocket<br />barealis</h3>
         </div>
-        <div class="creation-box box7">
+        <div data-aos="fade-up-right" class="creation-box box7">
           <div class="backdrop"></div>
           <h3 class="creation-box-title">the<br />curiosity</h3>
         </div>
-        <div class="creation-box box8">
+        <div data-aos="fade-up-left" class="creation-box box8">
           <div class="backdrop"></div>
           <h3 class="creation-box-title">make it<br />fisheye</h3>
         </div>
-        <button class="see-all-btn">SEE ALL</button>
+        <button data-aos="fade-up" class="see-all-btn">SEE ALL</button>
       </section>
-      <footer>
+      <footer data-aos="fade-up">
         <a href="#" class="footer-logo">loopstudios</a>
         <ul class="footer-menu">
           <li class="footer-menu-item"><a href="#">About</a></li>
@@ -127,5 +131,10 @@
     </main>
 
     <script src="mobile-menu.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
