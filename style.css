@@ -10,6 +10,17 @@ header {
   background-size: cover;
 }
 
+@media (min-width: 1024px) {
+  header {
+    background-image: url(images/desktop/image-hero.jpg);
+    height: 650px;
+    background-attachment: fixed;
+  }
+  .menu-open {
+    display: none;
+  }
+}
+
 .top {
   display: flex;
   justify-content: space-between;
@@ -64,24 +75,46 @@ header {
   text-decoration: none;
 }
 
-.item1 {
+.mobile-nav-list-item.item1 {
   transition-delay: 300ms;
 }
 
-.item2 {
+.mobile-nav-list-item.item2 {
   transition-delay: 350ms;
 }
 
-.item3 {
+.mobile-nav-list-item.item3 {
   transition-delay: 400ms;
 }
 
-.item4 {
+.mobile-nav-list-item.item4 {
   transition-delay: 450ms;
 }
 
-.item5 {
+.mobile-nav-list-item.item5 {
   transition-delay: 500ms;
+}
+
+@media (max-width: 1024px) {
+  .desktop-nav {
+    display: none;
+  }
+}
+
+.desktop-nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.desktop-nav-list-item {
+  padding: 0 10px;
+}
+
+.desktop-nav-list-item a {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "Alata";
+  color: white;
 }
 
 .menu-close {
@@ -121,10 +154,29 @@ header {
   margin: 20vh auto;
   padding: 25px 40px 25px 25px;
 }
+@media (max-width: 480px) {
+  .header-title {
+    font-size: clamp(28px, calc(1.75rem + ((1vw - 2.8px) * 10)), 48px);
+    min-height: 0vw;
+  }
+}
 
-.header-title {
-  font-size: clamp(28px, calc(1.75rem + ((1vw - 2.8px) * 10)), 48px);
-  min-height: 0vw;
+@media (min-width: 1024px) {
+  .header-title {
+    width: 550px;
+    height: auto;
+    font-size: 4rem;
+    margin-bottom: 186px;
+    margin-left: 50px;
+    margin-top: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-title {
+    font-size: clamp(28px, calc(1.75rem + ((1vw - 2.8px) * 10)), 48px);
+    min-height: 0vw;
+  }
 }
 
 .description-section {
